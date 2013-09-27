@@ -16,7 +16,7 @@
 }
 .result{
 font: 12px arial;
-width:100%
+width:100%;
 background: lightgoldenrodyellow;
 
 
