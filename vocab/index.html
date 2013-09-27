@@ -1,0 +1,208 @@
+    <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
+</head>
+<body id="vocab-body">
+    <!-- @ Page =home -->
+<div data-role="page" id="home">
+
+	
+    <div data-role="header" class="header" data-position="fixed" role="banner" >
+        <h3>Vocabulizer</h3> 
+    </div>
+    
+    <div data-role="content">
+       <div class="nav_profile">
+            <div class="land-page-list">
+                
+                <p><a data-transition="slide" href=""><img src="https://cdn1.iconfinder.com/data/icons/TWG_Retina_Icons/64/chart_line.png">statistics</a></p>
+                <p><a data-transition="slide" href="#wordlist">
+                <img src="https://cdn1.iconfinder.com/data/icons/super-mono-basic/blue/book-open-bookmark_basic_blue.png">
+                wordlist</a></p>
+                <p><a data-transition="slide" href="#quiz"><img src="https://cdn1.iconfinder.com/data/icons/customicondesignoffice5/128/tests.png"><br>quiz</a></p>
+                <p><a data-transition="slide" href="#flash"><img src="https://cdn1.iconfinder.com/data/icons/super-mono-reflection/blue/credit-cards_blue.png">
+                flashcards</a></p>
+            </div><!--/nav_name-->
+        </div><!--/nav_profile-->
+    </div>
+
+</div>
+
+
+<!-- wordlist -->
+
+<div data-role="page" id="wordlist">
+   <div data-role="panel" id="myPanel2" class="main_nav" data-display="overlay"  data-dismissible="true" data-theme="a">
+        <div class="nav_profile">
+            <div id="vocab-nav"class="nav_name">
+                <h3>Menu</h3>
+                <p><a data-transition="flow" href="#wordlist" class="active"><img src="https://cdn1.iconfinder.com/data/icons/fugue/icon_shadowless/script-attribute-w.png">
+                wordlist</a></p>
+                <p><a data-transition="flow" href="#flash"><img src="https://cdn1.iconfinder.com/data/icons/fugue/icon_shadowless/card--arrow.png">
+                flashcards</a></p>
+                <p><a data-transition="flow" href="#quiz"><img src="https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/lab-16.png">quiz</a></p>
+            </div><!--/nav_name-->
+        </div><!--/nav_profile-->
+    </div><!-- /panel -->
+ <div data-role="header" class="header" data-position="fixed" role="banner" >
+        <h3>Vocabulizer</h3>
+         <a href="#myPanel2" data-role="button" data-icon="bars" data-iconpos="notext" data-theme="c" data-inline="true">home</a>
+    </div>
+ <ul data-role="listview" data-filter="true" data-filter-placeholder="Search words" data-inset="true" class="word-list">
+    <li><a href="#">Bigot</a></li>
+    <li><a href="#">Counterfeit</a></li>
+    <li><a href="#">Enfranchise</a></li>
+    <li><a href="#">Hamper</a></li>
+    <li><a href="#">Kindle</a></li>
+    <li><a href="#">Placid</a></li>
+</ul>
+</div>
+
+<!-- meaning -->
+<div data-role="page" id="meaning">
+ <div data-role="header" class="header" data-position="fixed" role="banner" >
+        <h3>Vocabulizer</h3>
+         <a href="#wordlist" data-role="button" data-icon="back" data-iconpos="notext" data-theme="c" data-inline="true">home</a>
+    </div>
+   <div class="word">
+     <p class="title">Bigot </p>
+     <p class="mean">narrow-minded, prejudiced person</p>
+   </div>
+
+</div>
+
+<!-- quiz -->
+<div data-role="page" id="quiz">
+	<div data-role="panel" id="myPanel1" class="main_nav" data-display="overlay"  data-dismissible="true" data-theme="a">
+        <div class="nav_profile">
+            <div id="vocab-nav"class="nav_name">
+                <h3>Menu</h3>
+                <p><a data-transition="flow" href="#wordlist"><img src="https://cdn1.iconfinder.com/data/icons/fugue/icon_shadowless/script-attribute-w.png">
+                wordlist</a></p>
+                <p><a data-transition="flow" href="#flash"><img src="https://cdn1.iconfinder.com/data/icons/fugue/icon_shadowless/card--arrow.png">
+                flashcards</a></p>
+                <p><a data-transition="flow" href="#quiz" class="active"><img src="https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/lab-16.png">quiz</a></p>
+            </div><!--/nav_name-->
+        </div><!--/nav_profile-->
+    </div><!-- /panel -->
+    
+    <div data-role="header" class="header" data-position="fixed" role="banner" >
+        <h3>Vocabulizer</h3>
+        <a href="#myPanel1" data-role="button" data-icon="bars" data-iconpos="notext" data-theme="c" data-inline="true"></a>
+
+    </div>
+    <div data-role="content" id="quiz-content">
+        <h2 class="quiz-question">obfuscate</h2>
+            <form>
+	            <label>
+	               <input type="radio" name="radio-choice-0" id="radio-choice-0a">One
+			    </label>
+			    <label for="radio-choice-0b">Two
+			       <input type="radio" name="radio-choice-0" id="radio-choice-0b" class="custom">
+			    </label>
+			    <label for="radio-choice-0b">Three
+			       <input type="radio" name="radio-choice-0" id="radio-choice-0b" class="custom">
+			    </label>
+			    <label for="radio-choice-0b">four
+			       <input type="radio" name="radio-choice-0" id="radio-choice-0b" class="custom">
+			    </label>
+            </form>
+         <div data-role="navigate" class="quiz-nav-ctn">
+        <a href="" class="quiz-nav active" data-inline="true" data-theme="a">prev</a>
+        <a href="" class="quiz-nav" data-inline="true" data-theme="a">next</a>
+    </div> 
+    </div>
+    
+    <div data-role="footer">
+        <a href="" data-role="button" class="quiz-footer active" data-inline="true" data-theme="a">review</a>
+        <a href="" data-role="button"class="quiz-footer"  data-inline="true" data-theme="a">result</a>
+        <a href="" data-role="button"class="quiz-footer"  data-inline="true" data-theme="a">summary</a>
+    </div>
+</div>
+
+
+
+<!-- flashcards -->
+<div data-role="page" id="flash">
+    <div data-role="panel" id="myPanel3" class="main_nav" data-display="overlay"  data-dismissible="true" data-theme="a">
+        <div class="nav_profile">
+            <div id="vocab-nav"class="nav_name">
+                <h3>Menu</h3>
+                <p><a data-transition="flow" href="#wordlist"><img src="https://cdn1.iconfinder.com/data/icons/fugue/icon_shadowless/script-attribute-w.png">
+                wordlist</a></p>
+                <p><a data-transition="flow" href="#flash" class="active"><img src="https://cdn1.iconfinder.com/data/icons/fugue/icon_shadowless/card--arrow.png">
+                flashcards</a></p>
+                <p><a data-transition="flow" href="#quiz"><img src="https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/lab-16.png">quiz</a></p>
+            </div><!--/nav_name-->
+        </div><!--/nav_profile-->
+    </div><!-- /panel -->
+    <div data-role="header" class="header" data-position="fixed" role="banner" >
+         <a href="#myPanel3" data-icon="bars" data-iconpos="notext" class=""></a> 
+         <h3>vocabulizer</h3> 
+    </div>
+    <div data-role="navigate" class="flash-nav-ctn">
+        <a href="" class="flash-nav active" data-inline="true" data-theme="a">prev</a>
+        <a href="" class="flash-nav middle" data-inline="true" data-theme="a">add</a>
+        <a href="" class="flash-nav" data-inline="true" data-theme="a">next</a>
+    </div>
+    <div data-role="content" id="flash-content">
+     <div data-role="collapsible-set" data-theme="c" data-content-theme="d">
+	    <div data-role="collapsible">
+	        <h3>obfuscate</h3>
+	        <p>I'm the collapsible content for section 1</p>
+	    </div>
+     </div>     
+    </div>
+    <div data-role="footer">
+        <a href="" class="flash-footer active" data-inline="true" data-theme="a">normal</a>
+        <a href="" class="flash-footer" data-inline="true" data-theme="a">personalized</a>
+    </div>
+</div><!--/flash-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    // swiperight
+	$(function(){
+        $('#wordlist').on('swiperight',swiperighthandler);
+        function swiperighthandler(){
+            $("#myPanel2").panel("open");
+        }
+
+        $('#quiz').on('swiperight',swiperighthandler);
+        function swiperighthandler(){
+            $("#myPanel1").panel("open");
+        }
+        $('#flash').on('swiperight',swiperighthandler);
+        function swiperighthandler(){
+            $("#myPanel3").panel("open");
+        }
+
+        // onclick
+        $("#flash .flash-footer").on("tap",function(event){
+            $("#flash .flash-footer").removeClass("active");
+            $(this).addClass("active");
+            event.preventDefault();
+        });
+        $("#quiz .quiz-footer").on("tap",function(event){
+            $("#quiz .quiz-footer").removeClass("active");
+            $(this).addClass("active");
+            event.preventDefault();
+        });
+
+
+        $(".word-list li").on('tap',ontap);
+        function ontap(){
+            $.mobile.changePage( "#meaning", { transition: "slide", changeHash: true });
+        }
+
+	});
+});
+</script>
+</body>
+</html>

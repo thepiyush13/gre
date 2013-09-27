@@ -1,0 +1,325 @@
+
+#home,.ui-body-c, .ui-overlay-c{
+	background: #F8F4ED;
+	/*background: #e4e4e4;*/
+	font-family: 'Ubuntu', sans-serif;
+}
+#vocab-body {
+	font-family: 'Ubuntu', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+
+	font-family: 'Ubuntu', sans-serif;
+}
+h3{
+	font-weight: bold;
+}
+.vocab-nav .active{
+
+}
+.ui-bar-a{
+	background: #1E8DDA;
+	border:none;
+	box-shadow:0px 1px 0px 0px grey;
+}
+.ui-btn-up-a{
+		text-shadow:none;
+}
+.ui-btn-up-c,.ui-btn-hover-c{
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0px 2px 0px -1px gainsboro;
+	background: white;
+}
+.ui-btn-hover-c{
+    background:#1E8DDA;
+}
+.ui-btn-hover-c .ui-btn-text,#flash-content .ui-btn-hover-c .ui-btn-text{
+    color:white;
+}
+.ui-body-a, .ui-overlay-a,.ui-bar-a{
+	text-shadow:none;
+}
+ .ui-shadow-inset
+ {
+ 	box-shadow:inset 0px 0px -5px -10px rgb(0,0,0)
+ }
+ .ui-corner-all{
+ 	border-radius: 4px;
+ }
+ .ui-radio{
+ 	margin:30px 0px 20px 0px;
+ }
+ .ui-header .ui-title{
+ 	text-transform: uppercase;
+ }
+ /*panel*/
+ #myPanel1,#myPanel2,#myPanel3{
+ 	background:#1E8DDA; 
+ }
+ .ui-panel-inner{
+ 	padding: 0px;
+ }
+ #vocab-nav p {
+ 	display: inline-block;
+width: 100%;
+
+vertical-align: top;
+height: 48px;
+ }
+ .ui-mobile a img{
+ 	vertical-align: middle;
+margin: 0px 4px 4px 0px;
+ }
+ #vocab-nav p a{
+   padding: 15px 25px 15px 25px;
+text-transform: uppercase;
+background: white;
+text-align: center;
+width: 79%;
+border-radius: 3px;
+text-decoration: none;
+margin: 0px 0px 0px 2px;
+color: #1E8DDA;
+display: inline-block;
+background: white;
+border: 1px solid #1E8DDA;
+}
+.ui-btn-text{
+	color:#1E8DDA;
+}
+/*panel2*/
+#myPanel1{
+ 	background:#1E8DDA; 
+ }
+
+/*land-page*/
+ .land-page-list p{
+ 	width: 49%;
+ 	display:inline-block;
+ 	text-align: center;
+ }
+ .land-page-list p a{
+ 	text-decoration: none;
+padding: 15px 0px 0px 0px;
+background-color: white;
+width: 120px;
+border-radius: 3px;
+box-shadow: 0px 1px 4px grey;
+height: 120px;
+text-transform: capitalize;
+vertical-align: middle;
+box-sizing: border-box;
+display: inline-block;
+ }
+  .land-page-list p a img{
+  	margin: 0px 0px 5px 0px;
+  	height: 63px;
+  }
+/*wordlist*/
+
+.ui-listview-filter .ui-input-search {
+margin: 25px 3px 35px 4px;
+}
+
+ /*quiz*/
+ #quiz-content .quiz-question{
+    color: #1E8DDA;
+text-shadow: none;
+font-size: 2em;
+text-transform: uppercase;
+margin: 0px;
+ }
+/*flash*/
+#flash-content{
+	margin:10% 0px 0px 0px;
+}
+#flash-content .ui-btn-inner{
+	padding: 2.6em 54px;
+	text-align: center;
+}
+#flash-content .ui-btn-text{
+	color: #1E8DDA;
+    text-shadow:1px 3px 9px grey;
+    font-size: 3.4em;
+    text-transform: uppercase;
+    margin: 0px;
+}
+#flash .ui-collapsible-heading-collapsed .ui-collapsible-heading-toggle{
+    box-shadow: 0px 2px 0px -1px gainsboro!important;
+    border: 1px solid gainsboro;
+}
+#flash .ui-collapsible-heading .ui-collapsible-heading-toggle{
+	box-shadow: none;
+	 border: 1px solid gainsboro;
+	
+}
+#flash .ui-btn-text{
+	font-family: ubuntu;
+	text-shadow: 1px 1px 0px gainsboro;
+
+}
+#flash .ui-collapsible-content {
+  border-color:gainsboro;
+}
+#myPanel3{
+	background: #1E8DDA;
+	background-image: none;
+}
+#flash .flash-footer,#flash .flash-nav{
+	background: none;
+	background-image:none;
+	box-shadow: none;
+	border: none;
+	border-radius: 0px;
+	padding:2px;
+	width: 49.3%;
+	box-sizing:border-box;
+}
+#flash .flash-nav-ctn{
+	width: 90%;
+background: #1E8DDA;
+box-sizing: border-box;
+padding: 7px;
+margin: 20px auto;
+border-radius: 3px;
+box-shadow: 0px 1px 0px 1px gainsboro;
+}
+
+#flash .flash-footer .ui-btn-inner,#flash .flash-nav {
+	padding:5px;
+	border:none;
+    font-size: 20.1px;
+    text-transform: uppercase;
+}
+#flash .flash-nav.middle{
+	border-width:0px 1px 0px 1px;
+	border-style: solid;
+	border-color: white;
+}
+#flash .flash-nav{
+    width: 32%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
+#flash .flash-footer .ui-btn-inner .ui-btn-text,#flash .flash-nav {
+	color: white;
+	text-shadow:none;
+	font-weight: 500;
+	font-size: 16px;
+}
+#flash .flash-footer.active{
+	background:white;
+	border: 1px solid gainsboro;
+
+}
+#flash .flash-footer.active .ui-btn-inner .ui-btn-text{
+   color: #1E8DDA;
+}
+@media only screen and (max-width: 640px){
+	#flash .ui-btn-text{
+		font-size: 1.4em;
+	}
+}
+@media only screen and (max-width: 320px){
+	#flash .ui-btn-text{
+		font-size: 1.4em;
+	}
+}
+/*panel
+*/
+#vocab-nav .active{
+   color: white;
+   background: #1E8DDA;
+}
+
+#quiz .quiz-footer,#quiz .quiz-nav{
+	background: none;
+	background-image:none;
+	box-shadow: none;
+	border: none;
+	border-radius: 0px;
+	padding:2px;
+	width: 32.5%;
+	box-sizing:border-box;
+}
+
+#quiz .quiz-nav-ctn{
+	width: 90%;
+background: #1E8DDA;
+box-sizing: border-box;
+padding: 7px;
+margin: 20px auto;
+border-radius: 3px;
+box-shadow: 0px 1px 0px 1px gainsboro;
+}
+
+#quiz .quiz-footer .ui-btn-inner,#quiz .quiz-nav {
+	padding:5px;
+	border:none;
+    font-size: 20.1px;
+    text-transform: uppercase;
+}
+#quiz .quiz-nav.middle{
+	border-width:0px 1px 0px 1px;
+	border-style: solid;
+	border-color: white;
+}
+#quiz .quiz-nav{
+    width: 48.3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
+#quiz .quiz-nav:nth-of-type(1){
+    border-width:0px 1px 0px 0px;
+	border-style: solid;
+	border-color: white;
+}
+#quiz .quiz-footer .ui-btn-inner .ui-btn-text,#quiz .quiz-nav {
+	color: white;
+	text-shadow:none;
+	font-weight: 500;
+	font-size: 16px;
+}
+#quiz .quiz-footer.active{
+	background:white;
+	border: 1px solid gainsboro;
+
+}
+#quiz .quiz-footer.active .ui-btn-inner .ui-btn-text{
+   color: #1E8DDA;
+}
+/*search-word-list*/
+#vocab-body .ui-listview-filter.ui-listview-filter-inset{
+	margin:30px 0px 0px 0px;
+}
+.word-list .ui-li {
+margin: 0px 5px 15px 5px;
+}
+.word p{
+margin: 35px;
+}
+.word .title{
+	font-size: 30px;
+}
+#vocab-nav h3{
+	margin-left: 10px;
+}
+div.ui-input-text{
+	position: fixed;
+    width: 97%;
+}
+.ui-shadow{
+	box-shadow: none;
+}
+/*footer*/
+.ui-footer{
+	position: fixed;
+width: 100%;
+bottom: 0px;
+text-transform: uppercase;
+}
