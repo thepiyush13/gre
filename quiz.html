@@ -164,8 +164,34 @@ body {
 	     </div>
 	     <div class="left2" style="
     max-height: 120px;  overflow: auto;  height: 90px;
-"><div class="nav"><br>
+">
+<div class="nav"><div style="
+    float: right;
+    margin: 20px;
+"><input type="text" value="25" id="countdown_from"><select id="test_type">  
+                  <option value="Verbal">Verbal</option><option value="Quant">Quant</option>
+                
+                <option value="Other">Other</option>
+              </select><input type="button" class="btn" value="Start &gt;" id="Start" style="background:  red;"><br><span class="timer"><span id="timerOutput"></span> Secs &nbsp;&nbsp; <a href="#" id="stop_timer"> stop </a>&nbsp;|&nbsp;<a id="start_timer" href="#"> start</a>    </span></div>
                
+             
+              <div style="
+    float: left;
+    margin: 10px;
+"><textarea id="remark" style="
+"></textarea><br><input type="button" class="btn" value="Save Score" id="save_score" style="
+"> &nbsp;&nbsp;
+             &nbsp;&nbsp;
+             <input type="button" class="btn" value="Find Score" id="submit" style="background: green;"></div>
+              
+              
+              
+              
+               
+              <ol class="score_list"></ol>
+        </div> 
+
+            <!--   
              <input type="button" class="btn" value="Save Score" id="save_score"> &nbsp;&nbsp;
              &nbsp;&nbsp;
              <input type="button" class="btn" value="Find Score" id="submit" style="background: green;">
@@ -187,6 +213,7 @@ body {
               
                
               <ol class="score_list"></ol>
+			  -->
         </div>
 	     </div>
 	 </div> 
