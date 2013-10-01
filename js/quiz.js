@@ -281,7 +281,7 @@ function set_remark(data){
     }
     var htm = '<ul>';
     $(data).each(function(i,remark){
-        htm+='<li>'+remark+'</li>';
+        htm+='<li><p>'+remark+'</p></li>';
     });
     htm+='</ul>';
     $('#remarks').html(htm);
