@@ -1,5 +1,11 @@
+## What?
 THIS IS THE CODE COLLECTION (MOSTLY SMALL TOOLS) CREATED BY ME DURING MY PREPARATION FOR GRADUATE RECORD EXAMINATION (GRE)
+## Why?
+  * TIMES TESTS FOR BETTER PERFORMENCE
+  * WORD TEST
 
+
+## How?
 
 Includes following:
 
@@ -9,7 +15,3 @@ Includes following:
 2. Has a mobile ready and web ready html which has 4000+ GRE words with their meaning and sentance uses. It has wonderful modules to help memorize these words . Modules such as timed word meaning quiz,drill down of words,falshcards and other special features to help remember words.
 
 3. a simple file which can be used to run PHP code locally to test various code for errors.
-
-
-
--Piyush
